@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: white;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navegacion a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navegacion a:hover {
+    color: #f0c674;
+}
+
+.contacto-btn {
+    padding: 0.5rem 1rem;
+    background-color: #f0c674;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto-btn:hover {
+    background-color: #e5b755;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14rem;
+    background: url('fondo0.jpg') no-repeat center center/cover;
+    color: rgb(211, 151, 0);
+    opacity: 100%;
+}
+
+.texto-hero h1 {
+    font-size: 2.5rem;
+    max-width: 500px;
+}
+
+.botones-hero button {
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    font-weight: bold;
+    width: auto;
+}
+
+.botones-hero button:hover {
+    background-color: #f0c674;
+    transform: scale(1.1);
+}
+
+.clientes {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+.clientes button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #182848;
+    color: white;
+    cursor: pointer;
+}
+
+.clientes button:hover {
+    background-color: #5f6acd;
+}
+
+.proyectos {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between; 
+    gap: 2rem; 
+    flex-wrap: wrap; 
+}
+
+h2{
+text-align: center;
+}
+
+.proyecto {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 30%;
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.abrir-modal {
+    background-color: #4b6cb7;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.abrir-modal:hover {
+    background-color: #3a519c;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.cerrar {
+    float: right;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.referencias {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    width: 250px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.testimonio img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.contacto {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.6rem;
+    background-color: #182848;
+    color: white;
+}
+
+.redes-sociales img {
+    width: 30px;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.1);
+}
+
+.redes-sociales alt{
+    color: #f9f9f9;
+}
+
+.footer {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #111;
+    color: white;
+}
+
+.cli{
+    padding-top: 3rem;
+}

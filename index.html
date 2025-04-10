@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Solutions</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logo">The Marketers</div>
+        <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Contacto</a>
+            <button class="contacto-btn">¡Contáctanos!</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="texto-hero">
+            <h1>Impulsa tu negocio con nuestras soluciones de marketing</h1>
+        </div>
+        <div class="botones-hero">
+            <button class="btn-servicio">Branding</button>
+            <button class="btn-servicio">Ventas</button>
+            <button class="btn-servicio">Investigación</button>
+        </div>
+    </section>
+
+    <h2 class="cli">Clientes</h2>
+    <section class="clientes">
+        <button>Google</button>
+        <button>Airbnb</button>
+        <button>Ebay</button>
+        <button>Wizzard</button>
+        <button>Notion</button>
+    </section>
+
+    <h2>Proyectos destacados</h2>
+    <section class="proyectos">
+        <div class="proyecto">
+            <img src="proyecto1.jpg" alt="Proyecto 1">
+            <h3>Lanzamiento de marca consciente</h3>
+            <button class="abrir-modal" onclick="mostrarDescripcion('proyecto1')" data-proyecto="1">Ver más</button>
+        </div>
+        <div class="proyecto">
+            <img src="proyecto2.webp" alt="Proyecto 2">
+            <h3>Portafolio de Freelancer</h3>
+            <button class="abrir-modal" onclick="mostrarDescripcion('proyecto2')" data-proyecto="2">Ver más</button>
+        </div>
+        <div class="proyecto">
+            <img src="proyecto3.webp" alt="Proyecto 3">
+            <h3>Colaboración con influencers</h3>
+            <button class="abrir-modal" onclick="mostrarDescripcion('proyecto3')" data-proyecto="3">Ver más</button>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <h3 id="titulo-modal"></h3> 
+            <p id="descripcion-modal"></p> 
+        </div>
+    </div>
+
+    <h2>Testimonios</h2>
+    <section class="referencias">
+        <div class="testimonio">
+            <img src="testimonio mujer1.jpg" alt="Cliente 1">
+            <h4>María López</h4>
+            <p>"Ellos cambiaron mi branding para bien. ¡Gracias!"</p>
+        </div>
+        <div class="testimonio">
+            <img src="testimonio hombre.jpg" alt="Cliente 2">
+            <h4>Carlos Pérez</h4>
+            <p>"Nos ayudaron a usar nuestras habilidades en campañas exitosas."</p>
+        </div>
+        <div class="testimonio">
+            <img src="testimonio mujer2.jpg" alt="Cliente 3">
+            <h4>Ana Ramírez</h4>
+            <p>"Su estilo creativo lo cambia todo."</p>
+        </div>
+    </section>
+
+    <section class="contacto">
+        <h2>Mantente en contacto</h2>
+        <input type="email" placeholder="Ingresa tu correo">
+        <button>Suscribirse</button>
+        <div class="redes-sociales">
+            <a href="#"><img src="icons8-facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="icons8-twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="icons8-instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="icons8-linkedin.svg" alt="LinkedIn"></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Email: contacto@marketers.com</p>
+        <p>Teléfono: +591 74558214</p>
+    </footer>
+</body>
+</html>
